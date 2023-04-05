@@ -2,7 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+####Keys & Data Files
+.env
+config.json
+main_data_store_JDKv1.h5
 # C extensions
 *.so
 

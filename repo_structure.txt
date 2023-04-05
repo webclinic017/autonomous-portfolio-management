@@ -1,0 +1,28 @@
+Autonomous-Portfolio-Management/
+│
+├── app/                     # Main application directory
+│   ├── data/                # Data acquisition and preprocessing
+│   │   ├── data_collection.py	# Script for acquiring historical & fundemental data (S&P 500, ETFs, stocks)
+│   │   ├── stock_ticker_list.csv	
+│   │   ├── etf_ticker_list.csv      
+│   ├── models/              # Model development and training
+│   │   ├── lstm/ |||| dec/test.ipynb # DEC for filtering; LSTM models for forward return prediction
+│   │   └── optimization/    # Portfolio optimization using Post-Modern Portfolio Theory (PMPT)
+│   ├── backtesting/         # Backtesting trading strategies (using Backtrader)
+│   │   └── backtest.py      # Scripts for backtesting
+│   ├── trading/             # Trade execution and portfolio management (using Interactive Brokers)
+│   │   ├── broker.py        # Scripts for broker integration
+│   │   ├── portfolio.py     # Scripts for portfolio management
+│   │   └── execution.py     # Scripts for trade execution
+│   └── main.py              # Main entry point for running the application
+│
+├── notebooks/               # Jupyter notebooks (exploratory analysis and model evaluation)
+│
+├── production/              # Production deployment
+│   ├── Dockerfile           # Dockerfile to build the Docker image
+│   ├── docker-compose.yml   # Docker Compose file for container orchestration
+│   └── azure-deployment/    # Azure deployment scripts and configuration
+│       └── azure-deploy.sh  # Shell script for deploying to Azure VM
+│
+├── README.md                # Project description and instructions
+└── .gitignore               # List of files and directories to ignore in version control

@@ -1,0 +1,105 @@
+ticker,name,category
+SPY,SPDR S&P 500 ETF Trust,Popular ETFs
+QQQ,Invesco QQQ Trust,Popular ETFs
+IWM,iShares Russell 2000 ETF,Popular ETFs
+DIA,SPDR Dow Jones Industrial Average ETF Trust,Popular ETFs
+MDY,SPDR S&P Midcap 400 ETF,Popular ETFs
+EEM,iShares MSCI Emerging Markets ETF,Popular ETFs
+EFA,iShares MSCI EAFE ETF,Popular ETFs
+IVV,iShares Core S&P 500 ETF,Popular ETFs
+VTI,Vanguard Total Stock Market Index Fund ETF Shares,Popular ETFs
+IJR,iShares Core S&P Small-Cap ETF,Popular ETFs
+SSO,ProShares Ultra S&P500,Popular ETFs
+TQQQ,ProShares UltraPro QQQ,Popular ETFs
+SQQQ,ProShares UltraPro Short QQQ,Popular ETFs
+EDC,Direxion Daily MSCI Emerging Markets Bull 3X Shares,Popular ETFs
+SPY,SPDR S&P 500 ETF Trust,Index ETFS
+QQQ,Invesco QQQ Trust,Index ETFS
+IWM,iShares Russell 2000 ETF,Index ETFS
+DIA,SPDR Dow Jones Industrial Average ETF Trust,Index ETFS
+VTI,Vanguard Total Stock Market Index Fund ETF Shares,Index ETFS
+MDY,SPDR S&P Midcap 400 ETF,Index ETFS
+DBC,Invesco DB Commodity Index Tracking Fund,Index ETFS
+FEZ,SPDR EURO STOXX 50 ETF,Index ETFS
+OEF,iShares S&P 100 ETF,Index ETFS
+IWF,iShares Russell 1000 Growth ETF,Index ETFS
+IWD,iShares Russell 1000 Value ETF,Index ETFS
+PFF,iShares Preferred and Income Securities ETF,Index ETFS
+VOO,Vanguard S&P 500 ETF,Index ETFS
+IJH,iShares Core S&P Mid-Cap ETF,Index ETFS
+IWO,iShares Russell 2000 Growth ETF,Index ETFS
+IWN,iShares Russell 2000 Value ETF,Index ETFS
+ACWI,iShares MSCI ACWI ETF,Index ETFS
+IEMG,iShares Core MSCI Emerging Markets ETF,Index ETFS
+XLE,Energy Select Sector SPDR Fund,Sector ETFs
+XLF,Financial Select Sector SPDR Fund,Sector ETFs
+XLU,Utilities Select Sector SPDR Fund,Sector ETFs
+XLI,Industrial Select Sector SPDR Fund,Sector ETFs
+GDX,VanEck Gold Miners ETF,Sector ETFs
+XLK,Technology Select Sector SPDR Fund,Sector ETFs
+XLV,Health Care Select Sector SPDR Fund,Sector ETFs
+XLY,Consumer Discretionary Select Sector SPDR Fund,Sector ETFs
+XLP,Consumer Staples Select Sector SPDR Fund,Sector ETFs
+XLB,Materials Select Sector SPDR Fund,Sector ETFs
+XOP,Spdr S&P Oil & Gas Exploration & Production Etf,Sector ETFs
+IYR,iShares U.S. Real Estate ETF,Sector ETFs
+XHB,Spdr S&P Homebuilders Etf,Sector ETFs
+ITB,iShares U.S. Home Construction ETF,Sector ETFs
+VNQ,Vanguard Real Estate Index Fund ETF Shares,Sector ETFs
+GDXJ,VanEck Junior Gold Miners ETF,Sector ETFs
+IYE,iShares U.S. Energy ETF,Sector ETFs
+OIH,VanEck Oil Services ETF,Sector ETFs
+XME,SPDR S&P Metals & Mining ETF,Sector ETFs
+XRT,Spdr S&P Retail Etf,Sector ETFs
+SMH,VanEck Semiconductor ETF,Sector ETFs
+IBB,iShares Biotechnology ETF,Sector ETFs
+KBE,SPDR S&P Bank ETF,Sector ETFs
+KRE,SPDR S&P Regional Banking ETF,Sector ETFs
+XTL,SPDR S&P Telecom ETF,Sector ETFs
+EWJ,iShares MSCI Japan ETF,Country ETFs
+FXI,iShares China Large-Cap ETF,Country ETFs
+EWZ,iShares MSCI Brazil ETF,Country ETFs
+EWT,iShares MSCI Taiwan ETF,Country ETFs
+DXJ,WisdomTree Japan Hedged Equity Fund,Country ETFs
+EWG,iShares MSCI Germany ETF,Country ETFs
+EWH,iShares MSCI Hong Kong ETF,Country ETFs
+EWI,iShares MSCI Italy ETF,Country ETFs
+EWW,iShares MSCI Mexico ETF,Country ETFs
+EWU,iShares MSCI United Kingdom ETF,Country ETFs
+EPI,WisdomTree India Earnings Fund,Country ETFs
+PIN,Invesco India ETF,Country ETFs
+IDX,VanEck Indonesia Index ETF,Country ETFs
+EWY,iShares MSCI South Korea ETF,Country ETFs
+EWA,iShares MSCI Australia ETF,Country ETFs
+EWM,iShares MSCI Malaysia ETF,Country ETFs
+EWS,iShares MSCI Singapore ETF,Country ETFs
+EWC,iShares MSCI Canada ETF,Country ETFs
+EWP,iShares MSCI Spain ETF,Country ETFs
+EWL,iShares MSCI Switzerland ETF,Country ETFs
+EZA,iShares MSCI South Africa ETF,Country ETFs
+GLD,SPDR Gold Shares,Commodity ETFs
+SLV,iShares Silver Trust,Commodity ETFs
+UNG,United States Natural Gas Fund,Commodity ETFs
+USO,"United States Oil Fund, LP",Commodity ETFs
+IAU,iShares Gold Trust,Commodity ETFs
+DBC,Invesco DB Commodity Index Tracking Fund,Commodity ETFs
+DBA,Invesco DB Agriculture Fund,Commodity ETFs
+CORN,Teucrium Corn Fund,Commodity ETFs
+DBB,Invesco DB Base Metals Fund,Commodity ETFs
+GSG,iShares S&P GSCI Commodity-Indexed Trust,Commodity ETFs
+DBO,Invesco DB Oil Fund,Commodity ETFs
+DBE,Invesco DB Energy Fund,Commodity ETFs
+USCI,"United States Commodity Index Fund, LP",Commodity ETFs
+PALL,abrdn Physical Palladium Shares ETF,Commodity ETFs
+SIVR,abrdn Physical Silver Shares ETF,Commodity ETFs
+PPLT,abrdn Physical Platinum Shares ETF,Commodity ETFs
+URA,Global X Uranium ETF,Commodity ETFs
+BNO,"United States Brent Oil Fund, LP",Commodity ETFs
+SGOL,abrdn Physical Gold Shares ETF,Commodity ETFs
+UGA,"United States Gasoline Fund, LP",Commodity ETFs
+UVXY,ProShares Ultra VIX Short-Term Futures ETF,Volatility ETFs
+TVIXF,VelocityShares Daily 2x VIX Short-Term ETN,Volatility ETFs
+VIXY,ProShares VIX Short-Term Futures ETF,Volatility ETFs
+SVXY,ProShares Short VIX Short-Term Futures ETF,Volatility ETFs
+SPXL,Direxion Daily S&P 500 Bull 3X Shares,Leveraged ETFs
+SPXS,Direxion Daily S&P 500 Bear 3X Shares ETF,Inverse Leveraged ETFs

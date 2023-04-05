@@ -1,0 +1,40 @@
+Traceback (most recent call last):
+  File "/home/groovyjac/miniconda3/envs/azureml_test/lib/python3.9/site-packages/requests/compat.py", line 11, in <module>
+    import chardet
+ModuleNotFoundError: No module named 'chardet'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/groovyjac/projects/Autonomous-Portfolio-Management/app/models/main.py", line 1, in <module>
+    from azureml_setup import azureml_setup
+  File "/home/groovyjac/projects/Autonomous-Portfolio-Management/app/models/azureml_setup.py", line 1, in <module>
+    from azureml.core import Experiment, ScriptRunConfig, Environment
+  File "/home/groovyjac/miniconda3/envs/azureml_test/lib/python3.9/site-packages/azureml/core/__init__.py", line 16, in <module>
+    from .workspace import Workspace
+  File "/home/groovyjac/miniconda3/envs/azureml_test/lib/python3.9/site-packages/azureml/core/workspace.py", line 22, in <module>
+    from azureml._project import _commands
+  File "/home/groovyjac/miniconda3/envs/azureml_test/lib/python3.9/site-packages/azureml/_project/_commands.py", line 8, in <module>
+    from azureml._restclient.clientbase import ClientBase
+  File "/home/groovyjac/miniconda3/envs/azureml_test/lib/python3.9/site-packages/azureml/_restclient/__init__.py", line 7, in <module>
+    from .rest_client import RestClient
+  File "/home/groovyjac/miniconda3/envs/azureml_test/lib/python3.9/site-packages/azureml/_restclient/rest_client.py", line 12, in <module>
+    from msrest.service_client import ServiceClient
+  File "/home/groovyjac/miniconda3/envs/azureml_test/lib/python3.9/site-packages/msrest/__init__.py", line 28, in <module>
+    from .configuration import Configuration
+  File "/home/groovyjac/miniconda3/envs/azureml_test/lib/python3.9/site-packages/msrest/configuration.py", line 37, in <module>
+    from .pipeline import Pipeline
+  File "/home/groovyjac/miniconda3/envs/azureml_test/lib/python3.9/site-packages/msrest/pipeline/__init__.py", line 52, in <module>
+    from requests.structures import CaseInsensitiveDict
+  File "/home/groovyjac/miniconda3/envs/azureml_test/lib/python3.9/site-packages/requests/__init__.py", line 45, in <module>
+    from .exceptions import RequestsDependencyWarning
+  File "/home/groovyjac/miniconda3/envs/azureml_test/lib/python3.9/site-packages/requests/exceptions.py", line 9, in <module>
+    from .compat import JSONDecodeError as CompatJSONDecodeError
+  File "/home/groovyjac/miniconda3/envs/azureml_test/lib/python3.9/site-packages/requests/compat.py", line 13, in <module>
+    import charset_normalizer as chardet
+  File "/home/groovyjac/miniconda3/envs/azureml_test/lib/python3.9/site-packages/charset_normalizer/__init__.py", line 23, in <module>
+    from charset_normalizer.api import from_fp, from_path, from_bytes, normalize
+  File "/home/groovyjac/miniconda3/envs/azureml_test/lib/python3.9/site-packages/charset_normalizer/api.py", line 10, in <module>
+    from charset_normalizer.md import mess_ratio
+  File "charset_normalizer/md.py", line 5, in <module>
+ImportError: cannot import name 'COMMON_SAFE_ASCII_CHARACTERS' from 'charset_normalizer.constant' (/home/groovyjac/miniconda3/envs/azureml_test/lib/python3.9/site-packages/charset_normalizer/constant.py)
