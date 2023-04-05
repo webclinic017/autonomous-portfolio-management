@@ -20,7 +20,7 @@ if __name__ == "__main__":
     n_epochs = 100
     early_stopping_patience = 5
     model = DECModel(n_clusters=n_clusters, input_shape=data.shape[1])
-    optimizer = tf.keras.optimizers.Adam(lr=0.01, beta_1=0.9, beta_2=0.999, epsilon=1e-08)
+    optimizer = tf.keras.optimizers.Adam(learning_rate=0.01, beta_1=0.9, beta_2=0.999, epsilon=1e-08)
     
     # Define a learning rate scheduler function
     def learning_rate_scheduler(epoch):
