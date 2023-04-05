@@ -23,11 +23,14 @@ class DECModel(tf.keras.Model):
         
         self.n_clusters = n_clusters
         
-    def compile(self, optimizer, loss_fn, learning_rate_scheduler=None):
-            super(DECModel, self).compile()
-            self.optimizer = optimizer
-            self.loss_fn = loss_fn
-            self.learning_rate_scheduler = learning_rate_scheduler
+
+    def compile(self, optimizer, loss_fn, loss=None, learning_rate_scheduler=None, **kwargs):
+        super(DECModel, self).compile(**kwargs)  # Pass any additional arguments to the parent class
+        self.optimizer = optimizer
+        self.loss_fn = loss_fn
+        self.loss = loss  # Add this line to handle the 'loss' argument
+        self.learning_rate_scheduler = learning_rate_scheduler
+
         
     def call(self, inputs):
         encoded = self.encoder(inputs)
@@ -38,8 +41,6 @@ class DECModel(tf.keras.Model):
         inputs = tf.cast(inputs, tf.float32)  # Add this line to cast inputs to float32
         self.encoder.weights[-1] = tf.cast(self.encoder.weights[-1], tf.float32)  # Add this line to cast encoder weights to float32
         reshaped_weights = tf.reshape(self.encoder.weights[-1], [1, 10, 1])
-        print("inputs shape:", inputs.shape)
-        print("encoder weights shape:", self.encoder.weights[-1].shape)
         q = tf.reduce_sum(tf.square(tf.expand_dims(inputs, axis=1) - reshaped_weights), axis=2)
         q = 1.0 / (1.0 + q / self.n_clusters)
         q = q ** (2.0 / 3.0)

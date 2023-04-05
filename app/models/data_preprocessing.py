@@ -14,7 +14,7 @@ def load_and_preprocess_data():
     np.random.seed(42)
     idx = pd.IndexSlice
 
-    meta = pd.read_hdf('/home/groovyjac/projects/Autonomous-Portfolio-Management/main_data_store_JDKv1.h5',
+    meta = pd.read_hdf('/home/groovyjac/projects/autonomous-portfolio-management/main_data_store_JDKv1.h5',
                         'stocks/base_fundamentals')
 
     selected_features = [
