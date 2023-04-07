@@ -1,5 +1,5 @@
-from azureml_setup import azureml_setup
-from data_preprocessing import load_and_preprocess_data
+from app.models.DEC.azureml_setup import azureml_setup
+from app.models.DEC.data_preprocessing import load_and_preprocess_data
 from dec_model import DECModel, dec_loss, target_distribution, train_dec_model
 from sklearn.metrics import silhouette_score
 from azureml.core import Experiment, ScriptRunConfig
